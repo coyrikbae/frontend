@@ -1,0 +1,5 @@
+npx create-react-app nama-app
+npm i bootstrap
+npm i react-icons
+npm i react-router-dom
+npm i axios

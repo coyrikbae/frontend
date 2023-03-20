@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.main-apps {
+  min-height: 100vh;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: #da2d79;
+  background-image: linear-gradient(to top, #0d0797, #7d008f, #b30083, #da2d79, #f65d72);
+} */
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
